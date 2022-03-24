@@ -1,9 +1,13 @@
 if __name__ == '__main__':
 
-
+    import random
     from cuenta import *
     from cuentaplazofijo import *
     from cuentavip import *
+
+    ID = 234567
+    Titular = "Jose Alvarez"
+    numerocuenta = random.randint(12)
 
     saldo = 10000
     cuentas = input("En que cuenta quiere trabajar: 1- Cuenta corriente 2- Cuenta a plazo fijo 3- Cuenta vip: ")
@@ -16,6 +20,6 @@ if __name__ == '__main__':
             print("Su saldo ahora es de {}".format(saldo))
         if operacion == 2:
             retirar = int(input("Cual es la cantidad que desea retirar: "))
-            
+
 
 
