@@ -4,11 +4,9 @@ class cuenta:
         self.dinero = dinero
         self.saldo = saldo
        
-    def retirar_dinero(self,retirar, saldo, saldo_nuevo):
+    def retirar_saldo(self,retirar, saldo, saldo_nuevo):
         
         retirar = int(input("Escriba la cantidad que desea retirar"))
         saldo_nuevo = saldo - retirar
         print(saldo_nuevo)
-
-
 
