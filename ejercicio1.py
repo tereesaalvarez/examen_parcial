@@ -1,4 +1,5 @@
 class Libro:
-    def __init__(self, genero, editorial):
-        self[ID, genero, editorial,]
+    def __init__(ID,nombre, genero, editorial, ISBN, autor):
+        
+        
 
