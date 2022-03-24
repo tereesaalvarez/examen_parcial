@@ -31,16 +31,17 @@ if __name__ == '__main__':
     operacion = input("Que operacion desea realizar: 1- Ingresar dinero 2- Retirar Dinero 3- Transferir dinero: ")
 
     if cuentas == 1 :
+        saldo = 10000
         if operacion == 1:
-            saldo = 10000
             ingresar = 575
             saldo = (saldo + ingresar)
             print("Su saldo ahora es de {}".format(saldo))
         if operacion == 2:
-            retirar = int(input("Cual es la cantidad que desea retirar: "))
+            retirar = 78
             saldo =  (saldo - retirar)
 
-    if cuenta == 2:
+    if cuentas == 2:
+        saldo = 10000
         if operacion == 1:
             print("Ha seleccionado ingresar dinero")
 
@@ -49,7 +50,7 @@ if __name__ == '__main__':
 
         if operacion == 3:
             print("Ha seleccionado transferir dinero")
-        
+    
 
 
 
