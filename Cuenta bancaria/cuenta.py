@@ -1,11 +1,14 @@
 class cuenta:
-    def __init__(self,cuenta):
+    def __init__(self,cuenta, dinero, saldo):
         self.cuenta = cuenta
-    
-    def retirar_dinero(self):
+        self.dinero = dinero
+        self.saldo = saldo
+       
+    def retirar_dinero(self,retirar, saldo, saldo_nuevo):
+        
+        retirar = int(input("Escriba la cantidad que desea retirar"))
+        saldo_nuevo = saldo - retirar
+        print(saldo_nuevo)
 
 
-    def ingresar_dinero(self):
 
-
-    def transferirar_dinero(self):
