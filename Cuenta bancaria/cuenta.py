@@ -11,6 +11,6 @@ class cuenta:
         saldo_nuevo = saldo - retirar
         print(saldo_nuevo)
 
-    def ingresar_saldo(self, operacion):
-        operacion = input("Que operacion desea realizar: 1- Ingresar dinero 2- Retirar Dinero 3- Transferir dinero: ")
+    def ingresar(self, ingresar):
+        ingresar = 575
 
