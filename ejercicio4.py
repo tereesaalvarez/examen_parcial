@@ -1,2 +1,0 @@
-class cuenta_bancaria:
-    
